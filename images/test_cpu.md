@@ -34,9 +34,9 @@
 ### ✅ Case 1: 10명 × 1회 × 5초
 
 #### Spring MVC
-![CPU_case1_mvc](/CPU_case1_mvc.png)
+![CPU_case1_mvc](/images/CPU_case1_mvc.png)
 
 #### Spring WebFlux
-![CPU_case1_webflux](/CPU_case1_webflux.png)
+![CPU_case1_webflux](/images/CPU_case1_webflux.png)
 
 

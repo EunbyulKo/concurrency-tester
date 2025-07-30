@@ -41,10 +41,10 @@
 ### ✅ Case 1: 10명 × 1회 × 1초
 
 #### Spring MVC + `Thread.sleep`
-![IO_case1_mvc](/IO_case1_mvc.png)
+![IO_case1_mvc](/images/IO_case1_mvc.png)
 
 #### Spring WebFlux
-![IO_case1_webflux](/IO_case1_webflux.png)
+![IO_case1_webflux](/images/IO_case1_webflux.png)
 
 
 ---
@@ -52,10 +52,10 @@
 ### ✅ Case 2: 1000명 × 1회 × 5초
 
 #### Spring MVC + `Thread.sleep`
-![IO_case2_mvc](/IO_case2_mvc.png)
+![IO_case2_mvc](/images/IO_case2_mvc.png)
 
 #### Spring WebFlux
-![IO_case2_webflux](/IO_case2_webflux.png)
+![IO_case2_webflux](/images/IO_case2_webflux.png)
 
 
 
@@ -64,10 +64,10 @@
 ### ✅ Case 3: 1000명 × 3회 × 5초
 
 #### Spring MVC + `Thread.sleep`
-![IO_case3_mvc](/IO_case3_mvc.png)
+![IO_case3_mvc](/images/IO_case3_mvc.png)
 
 #### Spring WebFlux
-![IO_case3_webflux](/IO_case3_webflux.png)
+![IO_case3_webflux](/images/IO_case3_webflux.png)
 
 
 
@@ -76,10 +76,10 @@
 ### ✅ Case 4: 2000명 × 1회 × 1초
 
 #### Spring MVC + `Thread.sleep`
-![IO_case4_mvc](/IO_case4_mvc.png)
+![IO_case4_mvc](/images/IO_case4_mvc.png)
 
 #### Spring WebFlux
-![IO_case4_webflux](/IO_case4_webflux.png)
+![IO_case4_webflux](/images/IO_case4_webflux.png)
 
 
 
@@ -103,10 +103,10 @@ public Mono<String> blockingSleep() {
 MVC보다 더 느려질 수 있음을 확인
 
 #### Spring WebFlux + `Thread.sleep`
-![IO_case1_webflux_thread](/IO_case2_webflux_thread.png)
+![IO_case1_webflux_thread](/images/IO_case2_webflux_thread.png)
 
 #### Spring WebFlux + `Thread.sleep`
-![IO_case4_webflux_thread](/IO_case4_webflux_thread.png)
+![IO_case4_webflux_thread](/images/IO_case4_webflux_thread.png)
 
 
 

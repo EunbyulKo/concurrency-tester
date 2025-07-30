@@ -1,0 +1,6 @@
+rootProject.name = 'concurrency-tester'
+include 'domain-core'
+include 'spring-mvc-api'
+include 'spring-webflux-api'
+include 'virtual-thread-api'
+

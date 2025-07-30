@@ -3,9 +3,11 @@ Spring 기반의 다양한 실행 모델(MVC, WebFlux, VirtualThread)을 분리 
 WebFlux의 기본 기능을 간단하게 활용하여
 각 모델의 동작 방식 및 성능 특성을 실험하고 비교하기 위한 학습용 프로젝트입니다.
 
-
+<br/>
 
 ---
+
+<br/>
 
 ## 📚 사용 기술
 
@@ -15,7 +17,7 @@ WebFlux의 기본 기능을 간단하게 활용하여
 - Gradle (멀티 모듈 구성)
 - JMeter (성능 실험 도구)
 
-
+<br/>
 
 ## 📦 모듈 구성
 
@@ -26,9 +28,11 @@ WebFlux의 기본 기능을 간단하게 활용하여
 | `spring-webflux-api` | Spring WebFlux의 API를 제공합니다. |
 | *(예정)* `virtualthread-api` | 가상 스레드 기반의 API를 구현할 예정입니다. (JDK 21 이상 필요) |
 
-
+<br/>
 
 ---
+
+<br/>
 
 ## 📍 `spring-mvc-api` 모듈
 
@@ -38,7 +42,7 @@ WebFlux의 기본 기능을 간단하게 활용하여
 | `/spring-mvc/sleep` | I/O 비교 | `Thread.sleep()` 기반 |
 | `/spring-mvc/calculate` | CPU연산 비교 | 오래 걸리는 계산 실행 |
 
-
+<br/>
 
 ### 📍 `spring-webflux-api` 모듈
 
@@ -55,8 +59,11 @@ WebFlux의 기본 기능을 간단하게 활용하여
 > - **이벤트 루프 내에서 블로킹하도록 배치**한 것도, **블로킹 상황에서 이벤트 루프가 어떻게 동작하는지를 보기 위한 실험 목적**입니다.  
 
 
+<br/>
 
 ---
+
+<br/>
 
 ## ⚙️ 성능 테스트
 
@@ -65,4 +72,11 @@ WebFlux가 CPU 연산보다 I/O 중심 작업에 더 적합하다는 가설을 �
 
 - 요청 수 / 초당 처리량 / 평균 응답 시간 비교
 - `sleep`, `calculate` 엔드포인트를 통한 테스트
+
+<br/>
+
+#### 상세보기
+
+- [성능 테스트 (IO)](/images/test_io.md)  
+- [성능 테스트 (CPU)](/images/test_cpu.md)
 

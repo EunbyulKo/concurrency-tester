@@ -100,14 +100,11 @@ public Mono<String> blockingSleep() {
 }
 ```
 
-MVC보다 더 느려질 수 있음을 확인
-
-#### Spring WebFlux + `Thread.sleep`
+### ✅ Case 2: 1000명 × 1회 × 5초
 ![IO_case1_webflux_thread](/images/IO_case2_webflux_thread.png)
 
-#### Spring WebFlux + `Thread.sleep`
+### ✅ Case 4: 2000명 × 1회 × 1초
 ![IO_case4_webflux_thread](/images/IO_case4_webflux_thread.png)
 
-
-
+MVC보다도 더 느려질 수 있음을 확인
 

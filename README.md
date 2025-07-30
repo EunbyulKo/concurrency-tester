@@ -77,6 +77,6 @@ WebFlux가 CPU 연산보다 I/O 중심 작업에 더 적합하다는 가설을 �
 
 #### 상세보기
 
-- [성능 테스트 (IO)](/images/test_io.md)  
-- [성능 테스트 (CPU)](/images/test_cpu.md)
+- [성능 테스트 (IO)](/README_TEST_IO.md)  
+- [성능 테스트 (CPU)](/README_TEST_CPU.md)
 
